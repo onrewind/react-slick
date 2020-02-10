@@ -1,4 +1,5 @@
-*About this fork*
+**About this fork**
+
 This is a fork of the original port that you can find [HERE](https://github.com/akiran/react-slick)
 
 Due to the lack of maintenance, we needed to have our own fork where we merge interesting PRs and fix bugs we encounter.

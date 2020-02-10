@@ -1,6 +1,13 @@
-### react-slick
+*About this fork*
+This is a fork of the original port that you can find [HERE](https://github.com/akiran/react-slick)
 
-[![Backers on Open Collective](https://opencollective.com/react-slick/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/react-slick/sponsors/badge.svg)](#sponsors) [![Join the chat at https://gitter.im/akiran/react-slick](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/akiran/react-slick?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Due to the lack of maintenance, we needed to have our own fork where we merge interesting PRs and fix bugs we encounter.
+
+Feel free to use or fork.
+
+---  
+
+# react-slick
 
 ##### Carousel component built with React. It is a react port of [slick carousel](http://kenwheeler.github.io/slick/)
 
@@ -11,13 +18,13 @@
 **npm**
 
 ```bash
-npm install react-slick --save
+npm install @onrewind/react-slick --save
 ```
 
 **yarn**
 
 ```bash
-yarn add react-slick
+yarn add @onrewind/react-slick
 ```
 
 ⚠️ Also install slick-carousel for css and font
@@ -43,7 +50,7 @@ or add cdn link in your html
 
 ```js
 import React from "react";
-import Slider from "react-slick";
+import Slider from "@onrewind/react-slick";
 
 class SimpleSlider extends React.Component {
   render() {
@@ -93,43 +100,9 @@ For all available methods, go [here](https://react-slick.neostack.com/docs/api#m
 Want to run demos locally
 
 ```bash
-git clone https://github.com/akiran/react-slick
+git clone https://github.com/onrewind/react-slick
 cd react-slick
 npm install
 npm start
 open http://localhost:8080
 ```
-
-<a href="https://opencollective.com/react-slick/donate" target="_blank">
-  <img src="https://opencollective.com/react-slick/donate/button@2x.png?color=blue" width=300 />
-</a>
-
-## Contributing
-
-Please see the [contributing guidelines](./CONTRIBUTING.md)
-
-## Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/akiran/react-slick/graphs/contributors"><img src="https://opencollective.com/react-slick/contributors.svg?width=890" /></a>
-
-## Backers
-
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/react-slick#backer)]
-
-<a href="https://opencollective.com/react-slick#backers" target="_blank"><img src="https://opencollective.com/react-slick/backers.svg?width=890"></a>
-
-## Sponsors
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/react-slick#sponsor)]
-
-<a href="https://opencollective.com/react-slick/sponsor/0/website" target="_blank"><img src="https://opencollective.com/react-slick/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/react-slick/sponsor/1/website" target="_blank"><img src="https://opencollective.com/react-slick/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/react-slick/sponsor/2/website" target="_blank"><img src="https://opencollective.com/react-slick/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/react-slick/sponsor/3/website" target="_blank"><img src="https://opencollective.com/react-slick/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/react-slick/sponsor/4/website" target="_blank"><img src="https://opencollective.com/react-slick/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/react-slick/sponsor/5/website" target="_blank"><img src="https://opencollective.com/react-slick/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/react-slick/sponsor/6/website" target="_blank"><img src="https://opencollective.com/react-slick/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/react-slick/sponsor/7/website" target="_blank"><img src="https://opencollective.com/react-slick/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/react-slick/sponsor/8/website" target="_blank"><img src="https://opencollective.com/react-slick/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/react-slick/sponsor/9/website" target="_blank"><img src="https://opencollective.com/react-slick/sponsor/9/avatar.svg"></a>
